@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           gotestsum
-Version:        0.4.0
+Version:        0.5.4
 Release:        1%{?dist}
 Summary:        `go test` runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results
 
@@ -31,5 +31,8 @@ install -p -m 755 %{name} %{buildroot}%{_bindir}/
 %{_bindir}/%{name}
 
 %changelog
+* Tue Oct 20 2020 Michael MacDonald <mjmac.macdonald@intel.com> - 0.5.4-1
+- Update to latest release
+
 * Fri Feb 07 2020 Michael MacDonald <mjmac.macdonald@intel.com> - 0.4.0-1
 - Initial package
