@@ -37,4 +37,4 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-packageBuildingPipeline(['distros': ['centos7']])
+packageBuildingPipeline(['distros': ['centos7', 'centos8']])
