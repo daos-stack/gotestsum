@@ -1,5 +1,7 @@
 #!/usr/bin/groovy
-/* Copyright (C) 2019 Intel Corporation
+/* groovylint-disable DuplicateMapLiteral, DuplicateStringLiteral, NestedBlockDepth */
+/* Copyright 2019 Intel Corporation
+ * Copyright 2025 Hewlett Packard Enterprise Development LP
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -37,4 +39,4 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-packageBuildingPipeline(['distros': ['centos7', 'centos8']])
+packageBuildingPipeline(['distros': ['el8']])
